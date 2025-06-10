@@ -1,0 +1,37 @@
+# Build
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# dotenv
+.env
+
+# Docker volumes (optionnel si tu veux pas versionner les data locales)
+**/postgres-data/
+**/pgadmin-data/
+
+# EF Migrations model snapshot (optionnel)
+Migrations/*Snapshot.cs
+
+# Visual Studio files
+.vscode/
+.idea/
+
+# JetBrains Rider
+.idea/
+
+# Secrets (si tu en as)
+appsettings.json

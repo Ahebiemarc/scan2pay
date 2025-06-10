@@ -1,0 +1,6 @@
+@scan2pay_HostAddress = http://localhost:5150
+
+GET {{scan2pay_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
